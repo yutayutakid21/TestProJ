@@ -25,6 +25,7 @@ class NextViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBOutlet weak var textLabel1: UILabel!
+    
     @IBOutlet weak var userNameLabel1: UILabel!
     
     @IBOutlet weak var UIImageview: UIImageView!
