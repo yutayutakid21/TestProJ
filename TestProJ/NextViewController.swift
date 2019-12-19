@@ -30,6 +30,8 @@ class NextViewController: UIViewController {
     
     @IBOutlet weak var UIImageview: UIImageView!
     
+    
+    
 
     /*
     // MARK: - Navigation
