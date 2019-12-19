@@ -37,8 +37,24 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+
+        
+        performSegue(withIdentifier: "next", sender: nil)
+
     }
 
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        
+        let nextVC = segue.destination as? UITransitionContextViewControllerKey
+        nextVC.text = textLabel.text!
+        nextVC.userName = userNameLabel.text!
+        nextVC.image = imageView.image!
+        
+    }
+    
+    
+    
 }
 
