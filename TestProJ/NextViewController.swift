@@ -30,7 +30,7 @@ class NextViewController: UIViewController {
     
     @IBOutlet weak var UIImageview: UIImageView!
     
-    
+    //print//
 
 
     /*
@@ -46,4 +46,3 @@ class NextViewController: UIViewController {
     
 }
 
-print
