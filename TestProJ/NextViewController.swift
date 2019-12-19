@@ -31,7 +31,7 @@ class NextViewController: UIViewController {
     @IBOutlet weak var UIImageview: UIImageView!
     
     
-    
+
 
     /*
     // MARK: - Navigation
@@ -42,5 +42,7 @@ class NextViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+print
+    
+    
 }
